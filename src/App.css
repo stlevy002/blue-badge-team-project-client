@@ -28,11 +28,178 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* AUTH STYLES */
+#mainAuthWrapper {
+  background-image: linear-gradient(to bottom right, #000000e1, #11b6c2ea), url('https://karmanhealth-karmanhealthcare.netdna-ssl.com/wp-content/uploads/2017/12/902.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#authWrapper {
+  position: relative;
+  top: 10%;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 0 10px grey;
+  background-color: white;
+}
+
+.authTabs {
+  background-color: #393E46;
+}
+
+.loginTab {
+  width: 50%;
+
+}
+
+.signupTab {
+  width: 50%;
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: #00FFF5 !important;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.authLink {
+  text-decoration: none;
+  color: #00ADB5;
+}
+
+.authLink:hover {
+  color: #393E46;
+}
+
+/* Login Styles */
+#loginWrapper {
+  padding: 20px 15px 30px 15px;
+}
+
+#username {
+  padding: 5px 0;
+}
+
+#password{
+  padding: 5px 0;
+}
+
+.loginButton {
+  margin-top: 25px !important;
+  padding: 3px 15px !important;
+  width: 50% !important;
+  background-color: #00ADB5 !important;
+  border-style: none;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.loginButton:hover {
+  background-image: linear-gradient(to bottom, #46464683, #11b6c2);
+  box-shadow: 0 0 5px grey;
+  cursor: pointer;
+}
+
+/* Register Styles */
+#registerWrapper {
+  padding: 20px 15px 30px 15px;
+}
+
+.registerButton {
+  margin-top: 25px !important;
+  padding: 3px 15px !important;
+  width: 50% !important;
+  background-color: #00ADB5 !important;
+  border-style: none;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.registerButton:hover {
+  background-image: linear-gradient(to bottom, #46464683, #11b6c2);
+  box-shadow: 0 0 5px grey;
+  cursor: pointer;
+}
+
+label + .MuiInput-formControl {
+  margin-top: 20px !important;
+}
+
+/* SideBar */
+#mainWrapper {
+  margin: 0;
+  width: 100%;
+}
+.headerBar {
+  height: 5vh;
+  position: fixed;
+  width: 100%;
+  margin: 0 !important;
+  background-color: #393E46;
+  color: white;
+}
+.sidebarContent {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 25% !important;
+  height: 100vh;
+  padding-top: 5% !important;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: #393E46;
+  color: white;
+
+}
+
+.userInfo {
+  height: 30% !important;
+  flex: none !important;
+  padding: 0 !important;
+}
+
+.userOperations {
+  height: 70% !important;
+  flex: none !important;
+  padding: 0 !important;
+}
+
+.operationsList li {
+ padding: 10px 5px;
+ list-style: none;
+}
+
+.operationsList {
+  padding-left: 35%;
+  margin: 0;
+  text-align: left;
+}
+
+.operationsList a{
+  text-decoration: none;
+  color: white;
+ }
+
+ .sidebarRoute {
+  flex: 1 !important;
+  background-color: #222831;
+  color: white;
+  padding-top: 5% !important;
+}
+ /* Main Home */
+ #homeWrapper {
+  height: 100%;
+  
+}
+
+.searchField {
+  display: flex;
+  flex-direction: column;
 }
